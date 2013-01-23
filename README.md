@@ -12,7 +12,7 @@ How to use it:
 
     $(document).ready(function() {
         $('#pinterest').pintRSSt({
-          // RSS feed for the board
+            // RSS feed for the board
         	boardRSS: 'http://pinterest.com/tacobell/doritos-locos-tacos.rss',
         	// number of pins
         	items: 7,
