@@ -6,20 +6,20 @@
 </head>
 <body>
 
-	<ul id="pinterest"></ul>
+  <ul id="pinterest"></ul>
 
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
   <script src="pintrsst.js" type="text/javascript"></script>
   <script type="text/javascript">
     $(document).ready(function() {
-        $('#pinterest').pintRSSt({
-        	// RSS feed for the board
-        	boardRSS: 'http://pinterest.com/tacobell/doritos-locos-tacos.rss',
-        	// number of pins
-        	items: 7,
-        	// container element for each pin, default is li
-        	container: 'li'
-        });
+      $('#pinterest').pintRSSt({
+        // RSS feed for the board
+        boardRSS: 'http://pinterest.com/tacobell/doritos-locos-tacos.rss',
+        // number of pins
+        items: 7,
+        // container element for each pin, default is li
+        container: 'li'
+      });
     });
   </script>
   
