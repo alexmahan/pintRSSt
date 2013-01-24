@@ -6,9 +6,9 @@
 				boardRSS: 'http://pinterest.com/tacobell/doritos-locos-tacos.rss',
 				items: 5,
 				container: 'li'
-			}
+			};
 
-			var options =  $.extend(settings, options);
+			options =  $.extend(settings, options);
 
 			return this.each(function () {
 			
