@@ -16,7 +16,7 @@
 					obj = $(this);
 					wrapper = o.container;
 					
-				$.getJSON('http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=100&callback=?&q='+encodeURIComponent(o.boardRSS)+'', function(data) {
+				$.getJSON('//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=100&callback=?&q='+encodeURIComponent(o.boardRSS)+'', function(data) {
 				
 					$.each(data.responseData.feed.entries, function (i, item) {
 						var description = item.content;
