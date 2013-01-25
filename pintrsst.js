@@ -20,7 +20,8 @@
 				
 					$.each(data.responseData.feed.entries, function (i, item) {
 						var description = item.content;
-						$(obj).append('<'+wrapper+' class="pinterest-post">'+description+'</'+wrapper+'>');
+						var post = $('<'+wrapper+'/>').addClass('pinterest-post').html(description);
+						$(obj).append(post);
 						return i<o.items-1;
 					}); 
 					
